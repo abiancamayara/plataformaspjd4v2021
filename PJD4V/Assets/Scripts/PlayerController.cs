@@ -567,6 +567,7 @@ public class PlayerController : MonoBehaviour, IDamageable
     }
 
     private void OnDrawGizmos()
+    
     {
         //Debug.DrawLine(transform.position, transform.position + groundCheck, Color.red);
         Gizmos.color = Color.red;
